@@ -4,8 +4,8 @@
 ### What's different from official luma3DS?
 - It's based from [DullPointer's custom luma3DS](https://github.com/DullPointer/Luma3DS) so it contains all of their added features such as night mode,
 - Changed some text and colors cuz why not,
-- Instant reboot: most useful feature, Press A + B +X + Y + Start to instantly reboot the console,
-- Toggle bottom screen anywhere: inspired by thirdtube, press Start + Select to toggle bottom screen (may glitch but hey it works),
+- Instant reboot: Press A + B + X + Y + Start to instantly reboot the console,
+- Toggle bottom screen anywhere: inspired by thirdtube, press Start + Select to toggle bottom screen,
 - Power off and reboot are now in a Power options menu (don't know why that wasn't already the case),
 - Workaround for toggle led in low battery, press Y in rosalina menu to make it blue so it can be turned off,
 - Errdisp doesn't reboot the console, so you can experiment playing games and remove cart/sd card for fun,
