@@ -47,7 +47,7 @@ bool rosalinaOpen = false;
 u32 mcuFwVersion = 0;
 
 void menuToggleLeds(void)
-{          
+{
     // toggle LEDs
     mcuHwcInit();
     u8 result;
@@ -317,7 +317,7 @@ void menuThreadMain(void)
                 GSPLCD_PowerOnBacklight(BIT(GSP_SCREEN_BOTTOM));
             }
             gspLcdExit();
-            while (scanHeldKeys() & (KEY_SELECT | KEY_START));
+            while (!(waitInput() & (KEY_SELECT | KEY_START)));
         }
 
         // Check for home button on O3DS Mode3 with plugin loaded
