@@ -1,6 +1,10 @@
 # Luma3DS
 *Noob-proof (N)3DS "Custom Firmware"*
 
+### WARNING:
+This fork is based on a old version of luma3ds and will rarely get updated. You can find a updated fork here: https://github.com/cooolgamer-cuz-github-fork-system-sucks/Luma3DS-but-better
+Note that not all features of this fork are ported on the updated one, features like night mode/quick switchers aren't available on the updated one (yet?).
+
 ### What's different from official luma3DS?
 - It's based from [DullPointer's custom luma3DS](https://github.com/DullPointer/Luma3DS) so it contains all of their added features such as night mode,
 - Changed some text and colors cuz why not,
